@@ -25,6 +25,7 @@ margin-left:50px;
     height:100px;
     display: flex;
     flex-direction: column;
+margin-right:20px;
 }
 #email{
     width: 350px;
@@ -36,6 +37,7 @@ margin-left:50px;
     height:100px;
     display: flex;
     flex-direction: column;
+margin-right:20px;
 }
 #password{
      width:350px;
