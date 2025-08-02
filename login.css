@@ -20,7 +20,7 @@ body{
     
 }
 #mail{
-    width: 1000px;
+    width: 500px;
     height:100px;
     display: flex;
     flex-direction: column;
