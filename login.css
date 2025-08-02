@@ -1,4 +1,4 @@
-body{
+I'mbody{
     
     background-color: #c0bcbc;
     z-index: 0;
@@ -56,7 +56,7 @@ margin-left:500px;
 @media(min-width:400px){
 .form{
 margin-left:300px;
-    width: 340px;
+    width: 400px;
     height:500px;
     background-color: white;
     align-content: center;
