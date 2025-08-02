@@ -7,7 +7,7 @@
     margin-left: -220px;
 }
 .form{
-    width: 500px;
+    width: 400px;
     height:700px;
     background-color:white;
     align-content: center;
@@ -18,30 +18,29 @@
    
 }
 .name{
-    width: 400px;
-    
+    width: 380px;
     display: flex;
     flex-direction: column;
    margin-bottom: 30px;
 }
 #first{
-    width: 400px;
+    width: 350px;
     height: 30px;
     border-radius: 10px;
 }
 #last{
-     width: 400px;
+     width: 350px;
       height: 30px;
       border-radius: 10px;
 }
 #email{
-     width: 400px;
+     width: 350px;
       height: 30px;
       border-radius: 10px;
       
 }
 #password{
-     width: 400px;
+     width: 350px;
       height: 30px;
       border-radius: 10px;
 }
@@ -55,5 +54,5 @@
     background-color: green;
     border: none;
     border-radius: 15px;
-    margin-left: 150px;
+    margin-left: 100px;
 }
