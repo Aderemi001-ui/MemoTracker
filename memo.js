@@ -126,7 +126,8 @@ deleteBtn.style.borderRadius='10px'
     }
     
     // Event listeners
-    addBtn.addEventListener('click', addMemo);
+  
+ addBtn.addEventListener('click', addMemo);
     memoInput.addEventListener('keypress', function(e) {
         if (e.key === 'Enter') {
             addMemo();
