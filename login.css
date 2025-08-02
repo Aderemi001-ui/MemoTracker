@@ -1,10 +1,11 @@
 body{
-    margin-left:1000px;
+    
     background-color: #c0bcbc;
     z-index: 0;
     
 }
 .form{
+margin-left:500px;
     width: 340px;
     height:500px;
     background-color: white;
