@@ -25,6 +25,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 const saveBtn = document.createElement('button');
                 saveBtn.className = 'edit-btn';
                 saveBtn.textContent = 'Save';
+savebtn.style.border='none'
+savebtn.style.width='70px'
+savebtn.style.height='40px'
+savebtn.style.backgroundColor='green'
+savebtn.style.borderRadius='10px'
                 saveBtn.addEventListener('click', () => saveMemo(index, editInput.value));
                 
                 memoContent.appendChild(editInput);
@@ -40,12 +45,20 @@ document.addEventListener('DOMContentLoaded', function() {
                 const editBtn = document.createElement('button');
                 editBtn.className = 'edit-btn';
                 editBtn.textContent = 'Edit';
-                editBtn.addEventListener('click', () => startEditing(index));
+editbtn.style.width='70px'
+editbtn.style.height='40px'
+editbtn.style.backgroundColor='white'
+editbtn.style.border='none'
+ editbtn.style.borderRadius='10px'               editBtn.addEventListener('click', () => startEditing(index));
                 
                 const deleteBtn = document.createElement('button');
                 deleteBtn.className = 'delete-btn';
                 deleteBtn.textContent = 'Delete';
-                deleteBtn.addEventListener('click', () => deleteMemo(index));
+delete-btn.style.width='70px'
+delete-btn.style.height='40px'
+delete-btn.style.backgroundColor='red'
+delete-btn.style.border='none'
+     delete-btn.style.borderRadius='10px'           deleteBtn.addEventListener('click', () => deleteMemo(index));
                 
                 li.appendChild(memoContent);
                 li.appendChild(editBtn);
