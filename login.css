@@ -32,13 +32,13 @@ margin-left:500px;
     border-radius: 10px;
 }
 #pass{
- width: 500px;
+ width: 400px;
     height:100px;
     display: flex;
     flex-direction: column;
 }
 #password{
-     width: 400px;
+     width:400px;
   border-radius: 10px;
      height: 30px;
 }
