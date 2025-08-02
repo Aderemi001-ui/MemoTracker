@@ -136,4 +136,4 @@ deleteBtn.style.borderRadius='10px'
     
     // Initial render
     renderMemos();
-});
+}); 
