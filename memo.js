@@ -13,7 +13,8 @@ document.addEventListener('DOMContentLoaded', function() {
         memosToRender.forEach((memo, index) => {
             const li = document.createElement('li');
             li.className = 'memo-item';
-            
+            li.style.width='280px'
+            li.style.borderRadius='10px'
             const memoContent = document.createElement('div');
             if (memo.isEditing) {
                 // Show input field and save button when editing
@@ -21,6 +22,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 editInput.type = 'text';
                 editInput.className = 'edit-input';
                 editInput.value = memo.text;
+                editInput.style.width='160px'
+                editInput.style.height='40px'
                 
                 const saveBtn = document.createElement('button');
                 saveBtn.className = 'edit-btn';
@@ -49,7 +52,8 @@ editBtn.style.width='70px'
 editBtn.style.height='40px'
 editBtn.style.backgroundColor='white'
 editBtn.style.border='none'
- editBtn.style.borderRadius='10px'               editBtn.addEventListener('click', () => startEditing(index));
+editBtn.style.borderRadius='10px'
+          editBtn.addEventListener('click', () => startEditing(index));
                 
                 const deleteBtn = document.createElement('button');
                 deleteBtn.className = 'delete-btn';
@@ -58,7 +62,8 @@ deleteBtn.style.width='70px'
 deleteBtn.style.height='40px'
 deleteBtn.style.backgroundColor='red'
 deleteBtn.style.border='none'
-     deleteBtn.style.borderRadius='10px'           deleteBtn.addEventListener('click', () => deleteMemo(index));
+deleteBtn.style.borderRadius='10px'
+   deleteBtn.addEventListener('click', () => deleteMemo(index));
                 
                 li.appendChild(memoContent);
                 li.appendChild(editBtn);
@@ -103,7 +108,7 @@ deleteBtn.style.border='none'
     // Save edited memo
     function saveMemo(index, newText) {
         if (newText.trim()) {
-            memo[index].text = newText.trim();
+            memos[index].text = newText.trim();
             memos[index].timestamp = Date.now(); // Update timestamp
             memos[index].isEditing = false;
             localStorage.setItem('memos', JSON.stringify(memos));
