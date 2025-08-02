@@ -2,9 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Page title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
 </head>
-<body>
-    
+<body class="">
+    <form class="form" action="login.html">
+    <h2 id="h1">*Create an account</h2>
+<div>
+    <div class="name">
+        <label for="email">First Name</label>
+        <input id="first" required name="name" >
+        <p class=p></p>
+    </div>
+    <div class="name">
+        <label for="email" >Last Name</label>
+        <input id="last" name="email" required >
+         <p class=p></p>
+    </div>
+     <div class="name">
+        <label for="email">Email Address</label>
+        <input id="email" name="password" required>
+         <p class=p></p>
+    </div>
+     <div class="name">
+        <label for="password">Password</label>
+        <input id="password" required>
+         <p class=p></p>
+    </div>
+    <div id="link" >Already have an account?<a href="login.html">Login</a></div>
+    <button class="login" onclick="submit1();submit2();submit3();submit4();savedetails()">Sign Up</button>
+ 
+  
+</div>
+</form>
+<script src="signup.js"></script> 
 </body>
 </html>

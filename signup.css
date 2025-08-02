@@ -1,0 +1,59 @@
+ body{
+    margin-left:100px;
+    background-color: #c0bcbc;
+    z-index: 0;
+}
+#h1{
+    margin-left: -220px;
+}
+.form{
+    width: 500px;
+    height:700px;
+    background-color:white;
+    align-content: center;
+    justify-items: center;
+    border-radius: 15px;
+    padding-left: 10px;
+    place-self: center;
+   
+}
+.name{
+    width: 400px;
+    
+    display: flex;
+    flex-direction: column;
+   margin-bottom: 30px;
+}
+#first{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+}
+#last{
+     width: 400px;
+      height: 30px;
+      border-radius: 10px;
+}
+#email{
+     width: 400px;
+      height: 30px;
+      border-radius: 10px;
+      
+}
+#password{
+     width: 400px;
+      height: 30px;
+      border-radius: 10px;
+}
+#link{
+    margin-bottom: 20px;
+    margin-top: -30px;
+}
+.login{
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    margin-left: 150px;
+}
