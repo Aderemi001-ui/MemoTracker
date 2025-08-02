@@ -53,3 +53,17 @@ margin-left:500px;
     border-radius: 10px;
     margin-left: 150px;
 }
+@media(min-width:400px){
+.form{
+margin-left:500px;
+    width: 340px;
+    height:500px;
+    background-color: white;
+    align-content: center;
+    justify-items: center;
+    border-radius: 15px;
+    padding-left: 60px;
+    z-index: 1;
+    place-self: center;
+}
+}
